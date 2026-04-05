@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="chat.png" alt="chat-adapter-sendblue" width="600" />
+</p>
+
 # chat-adapter-sendblue
 
 [Sendblue](https://sendblue.co) adapter for [Chat SDK](https://chat-sdk.dev) — send and receive iMessage and SMS from your bot.
