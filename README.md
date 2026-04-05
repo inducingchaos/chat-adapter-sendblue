@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="chat.png" alt="chat-adapter-sendblue" width="600" />
+  <img src="chat.png" alt="chat-adapter-sendblue" />
 </p>
 
 # chat-adapter-sendblue
