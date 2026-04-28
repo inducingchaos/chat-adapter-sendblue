@@ -12,8 +12,8 @@ importers:
         specifier: ^4.23.0
         version: 4.26.0
       sendblue:
-        specifier: ^3.6.1
-        version: 3.8.0
+        specifier: ^3.9.0
+        version: 3.9.0
     devDependencies:
       '@types/bun':
         specifier: ^1.3.13
@@ -662,8 +662,8 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
-  sendblue@3.8.0:
-    resolution: {integrity: sha512-jG47SQsZpWjVOxbX9NGeP9Rh15L9rKzoJDp5APSEXbw91y1aNJFQ7pbVMchr8g2nC0tldbbmKqoXgZa1Aum9oQ==}
+  sendblue@3.9.0:
+    resolution: {integrity: sha512-JoInW3nQO/q2Sxjz9Tnl5YzQka13cJ+xQ3fa75+xv2Ov+dXDXCzwE00xFfbCi97Awlz1zmkLgT1NjVNnH5KcuQ==}
 
   source-map@0.7.6:
     resolution: {integrity: sha512-i5uvt8C3ikiWeNZSVZNWcfZPItFQOsYTUAOkcUPGd8DqDy1uOUikjt5dG+uRlwyvR108Fb9DOd4GvXfT0N2/uQ==}
@@ -1457,7 +1457,7 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.60.2
       fsevents: 2.3.3
 
-  sendblue@3.8.0: {}
+  sendblue@3.9.0: {}
 
   source-map@0.7.6: {}
 
