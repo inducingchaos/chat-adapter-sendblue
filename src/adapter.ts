@@ -183,7 +183,9 @@ export class SendblueAdapter
 
     const threadId = this.threadIdFromPayload(payload);
 
-    this.markRead(threadId).catch(() => {});
+    if (this.config.sendReadReceipts === true) {
+      this.sendReadReceipt(threadId).catch(() => {});
+    }
 
     const factory = async (): Promise<Message<SendblueMessagePayload>> => {
       return this.parseMessage(payload);
@@ -482,7 +484,7 @@ export class SendblueAdapter
   // Sendblue-specific helpers (not part of Adapter interface)
   // ---------------------------------------------------------------------------
 
-  async markRead(threadId: string): Promise<void> {
+  async sendReadReceipt(threadId: string): Promise<void> {
     const decoded = this.decodeThreadId(threadId);
     if (!decoded.contactNumber) return;
 
