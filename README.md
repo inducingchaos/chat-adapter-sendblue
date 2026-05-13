@@ -12,6 +12,8 @@
 npm install chat-adapter-sendblue
 ```
 
+**Git installs (`github:…`):** `dist/` is committed so installers do not run a build or pull dev tooling. After changing `src/`, run `pnpm build` and commit `dist/` before pushing.
+
 ## Quick start
 
 ```ts
