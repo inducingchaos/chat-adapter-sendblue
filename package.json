@@ -17,6 +17,7 @@
   ],
   "scripts": {
     "build": "tsup && tsc -p tsconfig.build.json --emitDeclarationOnly",
+    "prepack": "pnpm run build",
     "dev": "tsup --watch",
     "clean": "rm -rf dist",
     "typecheck": "tsc --noEmit",
@@ -25,10 +26,10 @@
     "lint:fix": "biome check --write ."
   },
   "dependencies": {
-    "chat": "^4.23.0",
     "sendblue": "^3.6.1"
   },
   "devDependencies": {
+    "chat": "^4.23.0",
     "@types/node": "^22.0.0",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2"
